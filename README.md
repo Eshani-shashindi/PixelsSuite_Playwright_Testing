@@ -11,11 +11,18 @@ pixelsuite-testing/
 ├── tsconfig.json             # TypeScript compiler rules and Node types configuration
 ├── README.md                 # Project instructions and documentation
 ├── test-data/                # Sample files used for uploads during tests
-│   ├── image (6).jpg         # Sample JPG file
-│   ├── image (15).png        # Sample PNG file
-│   ├── image.webp            # Sample WebP file
-│   ├── compressed (4).gif    # Sample GIF file
-│   └── sample.pdf            # Sample unsupported PDF file
+│   ├── image (6).jpg          # Sample JPG file
+
+│   ├── image (11).png         # Sample PNG file
+
+│   ├── image (15).png         # Sample PNG file
+
+│   ├── image.webp             # Sample WebP file
+
+│   ├── sample.gif             # Sample GIF file
+
+│   └── sample.pdf             # Sample unsupported PDF file
+
 └── tests/                    # Automation specifications
     ├── compress-image.spec.ts # Tests for the general Image Compressor
     ├── gif-compressor.spec.ts # Tests for the GIF Compressor tool
