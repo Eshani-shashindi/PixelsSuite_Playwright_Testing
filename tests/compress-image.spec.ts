@@ -3,9 +3,9 @@ import * as path from "path";
 import * as fs from "fs";
 
 const SAMPLE_JPG = path.join(__dirname, "../test-data/image (6).jpg");
-const SAMPLE_PNG = path.join(__dirname, "../test-data/image (15).png");
+const SAMPLE_PNG = path.join(__dirname, "../test-data/image (11).png");
 const SAMPLE_WEBP = path.join(__dirname, "../test-data/image.webp");
-const SAMPLE_GIF = path.join(__dirname, "../test-data/compressed (4).gif");
+const SAMPLE_GIF = path.join(__dirname, "../test-data/sample.gif");
 const SAMPLE_PDF = path.join(__dirname, "../test-data/sample.pdf");
 const DOWNLOAD_FOLDER = path.join(__dirname, "../test-results/downloads");
 
